@@ -1,7 +1,8 @@
 import pytest
-
-from near import near
+import near 
 
 def test_near_true():
-    assert near("reset","rest") == True
+    assert near.near("reset","rest") == True
+
+
 
