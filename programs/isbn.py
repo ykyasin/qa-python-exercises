@@ -20,5 +20,5 @@ def checkNum(isbn):
     print("For ISBN: " + isbn + "?")
     print("check digit is --------->", str(check))
 
+    return check 
 
-checkNum(input("Input the isbn number (no dashes or spaces): "))

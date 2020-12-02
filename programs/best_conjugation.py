@@ -1,4 +1,6 @@
-word_file = open("qa-python-exercises\wordlist.txt","r")
+### Not complete
+
+word_file = open("programs/wordlist.txt","r")
 
 wordlist = []
 for line in word_file:
